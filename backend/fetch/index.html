@@ -1,0 +1,23 @@
+<html>
+
+
+
+<body>
+    <button id="create">Anlegen</button>
+</body>
+
+
+<script>
+
+    fetch("/api/cars/").then(data => {
+        data.json().then(json => {
+            json.map(car => {
+                addElement(car);
+            })
+        })
+    })
+
+</script>
+
+
+</html>

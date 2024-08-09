@@ -1,0 +1,26 @@
+.leftabstand {
+  margin-left: 5vw;
+}
+
+.MDBNavbarLink {
+  text-decoration: none;
+  color: black;
+  margin-left: 5vw;
+  font-weight: 500;
+}
+
+.navbar-toggler {
+  color: black;
+}
+
+.imgnav {
+  height: 50px;
+  width: 100px;
+}
+
+/* Damit in Handy-Version kein Margin left bei Logo */
+@media screen and (max-width: 991px) {
+  .leftabstand {
+    margin-left: 0vw;
+  }
+}
